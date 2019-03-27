@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login should match snapshot when all data is passed correctly 1`] = `
+<div
+  className="Login-container"
+>
+  <form
+    className="Login"
+  >
+    <img
+      alt="Bar Stock"
+      className="bar-logo"
+      src="BarStock_Logo.png"
+    />
+    <p
+      className="login-quote"
+    >
+      Making inventory easy for bars, both big and small.
+    </p>
+    <div
+      className="login-form"
+    >
+      <input
+        className="username-input"
+        id="userNameID"
+        name="userNameValue"
+        onChange={[Function]}
+        placeholder="Username"
+        type="text"
+        value=""
+      />
+      <input
+        className="password-input"
+        name="passwordValue"
+        onChange={[Function]}
+        placeholder="Password"
+        type="password"
+        value=""
+      />
+      <button
+        className="login-button"
+        onClick={[Function]}
+      >
+        Let's get started!
+      </button>
+    </div>
+  </form>
+</div>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match snapshot when all data is passed correctly 1`] = `
+<div
+  className="Header"
+>
+  <div
+    className="welcome-message"
+  >
+    Welcome: 
+  </div>
+  <div
+    className="logo-container"
+  >
+    <img
+      alt="Bar Stock"
+      src="BarStock_Logo.png"
+    />
+  </div>
+  <div
+    className="welcome-message"
+  >
+    Account# 1811FE
+  </div>
+</div>
+`;
